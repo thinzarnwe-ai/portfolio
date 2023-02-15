@@ -37,12 +37,8 @@ html{
     font-weight: 600 !important;
 }
 .home-section{
-    background-image: url(../img/SVG/background1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     position: relative;
-    top: -76px;
+    top: -110px;
    
 }
 .convas{
@@ -81,16 +77,16 @@ html{
 }
 
 .content-one{
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     /* word-spacing: 3px; */
     font-size: 30px;
     font-weight: 600 !important;
     margin-bottom: 0;
 }
 .content-two{
-    font-size: 50px;
+    font-size: 44px;
     letter-spacing: 3px;
-    word-spacing: 4px;
+    /* word-spacing: 0px; */
     margin: 10px 0px;
     text-transform: capitalize;
     font-weight: 700;
