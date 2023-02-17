@@ -317,26 +317,63 @@ li.active{
     animation-iteration-count: infinite;
 }
 
+.portfolio-section{
+    margin-top: 143px;
+}
   @media screen and (max-width: 480px) {
+    .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+        width: 100%;
+        padding-right: var(--bs-gutter-x, 0.75rem);
+        padding-left: var(--bs-gutter-x, 0.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .navbar-brand {
+        font-size: 19px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #fff !important;
+        padding: 9px 0px;
+    }
+
+    .logo {
+        font-size: 23px;
+        font-weight: 600;
+    }
     .content-one {
-      font-size: 17px;
+        font-size: 17px;
+        align-items: center;
+        margin-right: 76px;
     }
     .content-two{
-        font-size: 25px;
+        font-size: 20px !important;
+        margin-right: 63px;
+        letter-spacing: 0.05px;
     }
     .content-three{
-        font-size: 10px;
+        font-size: 8px;
+        margin-right: 44px;
     }
     .contact-info{
         font-size: 12px;
         margin-top: 0 !important;
         margin-bottom: 30px;
+        margin-left: 10px;
     }
     .contact-portfolio{
-        display: inline-block;
+        display: block;
         font-size: 12px;
-        margin: 0  0 22px 0!important;
-        /* margin-bottom: 10px; */
+        /* margin: 0 0 10px 0px!important; */
+        margin-bottom: 10px;
+        margin-right: 114px !important;
+    }
+
+    .portfolio-menu{
+        display: none;
+    }
+
+    .portfolio-section{
+        margin-top: 181px;
     }
   }
 
